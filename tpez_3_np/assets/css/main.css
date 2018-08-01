@@ -51,11 +51,11 @@ footer {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  width: 80px;
+  width: 60px;
   height: 100%;
   float: left;
-  background-color: white;
-  position: relative;
+  /*background-color: #2B333E;*/
+  position: fixed;
   left: 0; 
  }
 
@@ -87,6 +87,7 @@ footer {
   background-color: #f5f5fa; }
 
 #wrapper #sidebar-nav,
+#wrapper .sidebar-layout,
 #wrapper .main {
   padding-top: 80px; }
 
